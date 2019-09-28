@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include shoukinet_customization *.css
+recursive-include shoukinet_customization *.csv
+recursive-include shoukinet_customization *.html
+recursive-include shoukinet_customization *.ico
+recursive-include shoukinet_customization *.js
+recursive-include shoukinet_customization *.json
+recursive-include shoukinet_customization *.md
+recursive-include shoukinet_customization *.png
+recursive-include shoukinet_customization *.py
+recursive-include shoukinet_customization *.svg
+recursive-include shoukinet_customization *.txt
+recursive-exclude shoukinet_customization *.pyc

@@ -1,0 +1,62 @@
+{
+ "creation": "2019-09-27 02:41:14.426478",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "export_from",
+  "customer_group",
+  "supplier_group",
+  "export"
+ ],
+ "fields": [
+  {
+   "fieldname": "export_from",
+   "fieldtype": "Select",
+   "label": "Export from",
+   "options": "Lead\nCustomer\nSupplier"
+  },
+  {
+   "depends_on": "eval:doc.export_from == \"Customer\";",
+   "fieldname": "customer_group",
+   "fieldtype": "Link",
+   "label": "Customer Group",
+   "options": "Customer Group"
+  },
+  {
+   "depends_on": "eval:doc.export_from == \"Supplier\";",
+   "fieldname": "supplier_group",
+   "fieldtype": "Link",
+   "label": "Supplier Group",
+   "options": "Supplier Group"
+  },
+  {
+   "fieldname": "export",
+   "fieldtype": "Button",
+   "label": "Export"
+  }
+ ],
+ "issingle": 1,
+ "modified": "2019-09-27 02:44:33.154024",
+ "modified_by": "Administrator",
+ "module": "Shoukinet Customization",
+ "name": "Export Emails",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
