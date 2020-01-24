@@ -1,0 +1,98 @@
+{
+ "autoname": "BE.#####",
+ "creation": "2019-10-13 18:31:13.943090",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "company_name",
+  "email",
+  "contact_number",
+  "item",
+  "product",
+  "upload_product_list",
+  "product_details",
+  "website",
+  "country"
+ ],
+ "fields": [
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company Name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Int",
+   "label": "Contact Number"
+  },
+  {
+   "fieldname": "product",
+   "fieldtype": "Select",
+   "label": "Product",
+   "options": "\nCisco\nLinksys\nMOCET\nZycoo\nUbiquity\nDLink\nTP-Link\nAPC\nFortinet\nJuniper\nBROCADE\nHuawei\nJabra\nPolycom\nSonicwall\nPlantronics\nAruba\nSennheiser"
+  },
+  {
+   "fieldname": "upload_product_list",
+   "fieldtype": "Attach",
+   "label": "Upload Product List"
+  },
+  {
+   "description": "Part Number, Quantity",
+   "fieldname": "product_details",
+   "fieldtype": "Small Text",
+   "label": "Product Details"
+  },
+  {
+   "fieldname": "item",
+   "fieldtype": "Data",
+   "label": "Item",
+   "read_only": 1
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "Website"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country"
+  }
+ ],
+ "modified": "2019-12-02 14:17:51.779214",
+ "modified_by": "Administrator",
+ "module": "Shoukinet Customization",
+ "name": "Bulk Enquiry",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

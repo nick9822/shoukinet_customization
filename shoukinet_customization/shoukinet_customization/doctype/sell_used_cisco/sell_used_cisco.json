@@ -1,0 +1,65 @@
+{
+ "autoname": "SUC.#####",
+ "creation": "2019-10-13 20:28:58.428890",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "email",
+  "phone_number",
+  "what_would_you_like_to_sell",
+  "upload_hardware_list"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Int",
+   "label": "Phone Number"
+  },
+  {
+   "description": "Please include quantities and part numbers.",
+   "fieldname": "what_would_you_like_to_sell",
+   "fieldtype": "Data",
+   "label": "What would you like to sell?"
+  },
+  {
+   "fieldname": "upload_hardware_list",
+   "fieldtype": "Attach",
+   "label": "Upload Hardware List"
+  }
+ ],
+ "modified": "2019-10-13 20:29:20.502657",
+ "modified_by": "Administrator",
+ "module": "Shoukinet Customization",
+ "name": "Sell Used Cisco",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

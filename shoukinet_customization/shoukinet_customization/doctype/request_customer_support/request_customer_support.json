@@ -1,0 +1,95 @@
+{
+ "autoname": "RCS.#####",
+ "creation": "2019-10-13 21:02:26.137273",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "subject",
+  "full_name",
+  "email",
+  "company",
+  "company_number",
+  "contact_number",
+  "enquiry_for",
+  "briefing",
+  "location",
+  "website"
+ ],
+ "fields": [
+  {
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "label": "Subject"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "label": "Company"
+  },
+  {
+   "fieldname": "company_number",
+   "fieldtype": "Int",
+   "label": "Company Number"
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Int",
+   "label": "Contact Number"
+  },
+  {
+   "fieldname": "enquiry_for",
+   "fieldtype": "Select",
+   "label": "Enquiry for",
+   "options": "\nPresale Enquiry\nSales\nTechnical\nStatus Update of order - (Option to put PI/PO number)\nComplains"
+  },
+  {
+   "fieldname": "briefing",
+   "fieldtype": "Data",
+   "label": "Briefing"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "Website"
+  }
+ ],
+ "modified": "2019-10-13 21:02:26.137273",
+ "modified_by": "Administrator",
+ "module": "Shoukinet Customization",
+ "name": "Request Customer Support",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
