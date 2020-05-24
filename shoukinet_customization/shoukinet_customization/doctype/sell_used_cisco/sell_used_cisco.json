@@ -24,7 +24,7 @@
   },
   {
    "fieldname": "phone_number",
-   "fieldtype": "Int",
+   "fieldtype": "Data",
    "label": "Phone Number"
   },
   {
@@ -39,7 +39,7 @@
    "label": "Upload Hardware List"
   }
  ],
- "modified": "2019-10-13 20:29:20.502657",
+ "modified": "2020-05-24 01:01:45.147210",
  "modified_by": "Administrator",
  "module": "Shoukinet Customization",
  "name": "Sell Used Cisco",

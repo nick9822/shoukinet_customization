@@ -32,7 +32,7 @@
   },
   {
    "fieldname": "contact_number",
-   "fieldtype": "Int",
+   "fieldtype": "Data",
    "label": "Contact Number"
   },
   {
@@ -59,7 +59,7 @@
    "label": "Product Details"
   }
  ],
- "modified": "2019-12-02 00:37:36.698553",
+ "modified": "2020-05-24 01:01:18.475402",
  "modified_by": "Administrator",
  "module": "Shoukinet Customization",
  "name": "Request for Quote",

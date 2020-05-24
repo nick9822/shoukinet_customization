@@ -39,12 +39,12 @@
   },
   {
    "fieldname": "company_number",
-   "fieldtype": "Int",
+   "fieldtype": "Data",
    "label": "Company Number"
   },
   {
    "fieldname": "contact_number",
-   "fieldtype": "Int",
+   "fieldtype": "Data",
    "label": "Contact Number"
   },
   {
@@ -69,7 +69,7 @@
    "label": "Website"
   }
  ],
- "modified": "2019-10-13 21:02:26.137273",
+ "modified": "2020-05-24 01:01:36.318355",
  "modified_by": "Administrator",
  "module": "Shoukinet Customization",
  "name": "Request Customer Support",
