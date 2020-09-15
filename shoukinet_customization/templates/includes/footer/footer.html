@@ -1,41 +1,34 @@
 <footer class="web-footer">
-	<section class="footer-links">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 text-left">
-					{% if footer_items -%}
-					<div class="row">
-						{% include "templates/includes/footer/footer_items.html" %}
-					</div>
-					{% endif %}
-				</div>
+  <section class="footer-links">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 text-left">
+          {% if footer_items -%}
+          <div class="row">
+            {% include "templates/includes/footer/footer_items.html" %}
+          </div>
+          {% endif %}
+        </div>
 
-				<div class="col-sm-6 text-right">
-					{% block extension %}
-						{% include "templates/includes/footer/footer_extension.html" %}
-					{% endblock %}
-				</div>
-			</div>
-			<div class="row footer-bottom-line mt-5">
-				<div class="text-muted small col-sm-6 col-12">
-                    <br>
-					{% if copyright %}
-						&copy; {{ copyright }}
-					{% endif %}<br>
-					Head Office:<br>
-                    Office No. 305, Al Riffa Plaza<br>
-                    Khalid Bin Al Waleed Rd, Dubai, UAE
-                    Email: info@shoukinet.com
-				</div>
-				{# powered #}
-				<div class="text-muted small col-sm-6 col-12
-                    footer-powered">
-                    {% if footer_address %}
-						{% if copyright %}<br>{% endif %}
-						{{ footer_address }}
-					{% endif %}
-				</div>
-			</div>
-		</div>
-	</section>
+        <div class="col-sm-6 text-right">
+          {% block extension %} {% include
+          "templates/includes/footer/footer_extension.html" %} {% endblock %}
+        </div>
+      </div>
+      <div class="row footer-bottom-line mt-5">
+        <div class="text-muted small col-sm-6 col-12">
+          <br />
+          <!-- {% if copyright %} &copy; {{ copyright }} {% endif %}<br />
+          Head Office:<br />
+          Office No. 305, Al Riffa Plaza<br />
+          Khalid Bin Al Waleed Rd, Dubai, UAE Email: info@shoukinet.com -->
+        </div>
+        {# powered #}
+        <div class="text-muted small col-sm-6 col-12 footer-powered">
+          {% if footer_address %} {% if copyright %}<br />{% endif %} {{
+          footer_address }} {% endif %}
+        </div>
+      </div>
+    </div>
+  </section>
 </footer>

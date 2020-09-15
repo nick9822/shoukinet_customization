@@ -39,8 +39,8 @@
    "label": "Upload Hardware List"
   }
  ],
- "modified": "2020-05-24 01:01:45.147210",
- "modified_by": "Administrator",
+ "modified": "2020-05-25 00:14:38.621154",
+ "modified_by": "meisam@shoukinet.com",
  "module": "Shoukinet Customization",
  "name": "Sell Used Cisco",
  "owner": "Administrator",
@@ -61,5 +61,6 @@
  "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "track_changes": 1
+ "track_changes": 1,
+ "track_seen": 1
 }

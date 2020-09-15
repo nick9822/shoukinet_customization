@@ -12,13 +12,16 @@
   "item",
   "product",
   "upload_product_list",
-  "product_details"
+  "product_details",
+  "amended_from"
  ],
  "fields": [
   {
    "fieldname": "full_name",
    "fieldtype": "Data",
-   "label": "Full Name"
+   "in_list_view": 1,
+   "label": "Full Name",
+   "reqd": 1
   },
   {
    "fieldname": "company_name",
@@ -57,10 +60,19 @@
    "fieldname": "product_details",
    "fieldtype": "Small Text",
    "label": "Product Details"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Request for Quote",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
- "modified": "2020-05-24 01:01:18.475402",
- "modified_by": "Administrator",
+ "modified": "2020-05-25 00:09:17.486722",
+ "modified_by": "meisam@shoukinet.com",
  "module": "Shoukinet Customization",
  "name": "Request for Quote",
  "owner": "Administrator",
@@ -80,5 +92,6 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
- "track_changes": 1
+ "track_changes": 1,
+ "track_seen": 1
 }

@@ -69,8 +69,8 @@
    "label": "Website"
   }
  ],
- "modified": "2020-05-24 01:01:36.318355",
- "modified_by": "Administrator",
+ "modified": "2020-05-25 00:14:59.783047",
+ "modified_by": "meisam@shoukinet.com",
  "module": "Shoukinet Customization",
  "name": "Request Customer Support",
  "owner": "Administrator",
@@ -91,5 +91,6 @@
  "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "track_changes": 1
+ "track_changes": 1,
+ "track_seen": 1
 }
